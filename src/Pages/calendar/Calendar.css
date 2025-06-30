@@ -28,4 +28,10 @@ b { /* used for event dates/times */
 .fc { /* the calendar root */
   max-width: 1100px;
   margin: 0 auto;
+<<<<<<< HEAD
+=======
+}
+.fc-header-toolbar {
+  font-size: 7px;
+>>>>>>> 049d23a (second device)
 }

@@ -64,6 +64,10 @@ const Form = () => {
     );
     return (
         <Box
+<<<<<<< HEAD
+=======
+            mt={{xs:10}} ml={{xs :10 , sm:13}} width={{xs:'307px' , sm:'auto'}} 
+>>>>>>> 049d23a (second device)
             className="container"
             onSubmit={handleSubmit(onSubmit)}
             component="form"

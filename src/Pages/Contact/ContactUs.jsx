@@ -100,7 +100,11 @@ const ContactUs = () => {
     
     <>
     
+<<<<<<< HEAD
       <Box className="container">
+=======
+      <Box className="container" mt={{xs:10 }} ml={{xs :10 , sm:13}} width={{xs:'307px' , sm:'auto'}} >
+>>>>>>> 049d23a (second device)
         <Header title={"Contact"} subTitle={"List of Contacts for Future Reference"}/>
         <div style={{ height: '100vh', width: '100%' }}>
           

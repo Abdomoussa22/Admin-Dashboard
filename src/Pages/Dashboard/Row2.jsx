@@ -6,7 +6,11 @@ import { Transactions } from "./data";
 const Row2 = () => {
   const theme = useTheme();
   return (
+<<<<<<< HEAD
     <Stack mt={2} direction={"row"} flexWrap={"wrap"} gap={1}>
+=======
+    <Stack ml={{xs :7 , sm:'auto'}} width={{xs:'307px' , sm:'auto'}}  mt={2} direction={"row"} flexWrap={"wrap"} gap={1}>
+>>>>>>> 049d23a (second device)
       <Paper
         sx={{
           height: "360px",
@@ -32,7 +36,11 @@ const Row2 = () => {
         </Stack>
         <Line isDashboard={true} />
       </Paper>
+<<<<<<< HEAD
       <Box sx={{ minWidth: "350px" , flexGrow : 1 , maxHeight:'360px' , overflow:'auto'}}>
+=======
+      <Box sx={{ minWidth: {xs :'auto', sm: "350px"} , flexGrow : 1 , maxHeight:'360px' , overflow:'auto'}}>
+>>>>>>> 049d23a (second device)
         <Paper>
           <Typography
             variant="h6"
