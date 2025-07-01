@@ -82,11 +82,7 @@ const Calendar = () => {
   }
 
   return (
-<<<<<<< HEAD
     <Box className="container demo-app">
-=======
-    <Box mt={{xs:10 }} ml={{xs :10 , sm:13}} width={{xs:'307px' , sm:'auto'}}   sx={{display:'flex', flexWrap:'wrap', justifyContent:'center'}} className="container demo-app ">
->>>>>>> 049d23a (second device)
       <Sidebar
         currentEvents={currentEvents}
       />

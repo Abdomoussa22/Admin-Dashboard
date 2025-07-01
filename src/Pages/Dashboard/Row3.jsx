@@ -7,13 +7,10 @@ import Geo from '../../Pages/geography/Geo'
 const Row3 = () => {
   const theme = useTheme()
   return (
-<<<<<<< HEAD
-    <Stack mt={3} gap={1} direction={"row"} flexWrap={"wrap"}>
-      <Paper sx={{width:"30%", minWidth : "350px" , flexGrow:1}}>
-=======
+
     <Stack ml={{xs :7 , sm:'auto'}} width={{xs:'307px' , sm:'auto'}}   mt={3} gap={1} direction={{xs :'column' , sm:"row"}} flexWrap={"wrap"}>
       <Paper sx={{width:{xs :'100%' , sm :"33%"}, minWidth: {xs :'auto', sm: "350px"}, flexGrow:1}}>
->>>>>>> 049d23a (second device)
+
               <Typography
           color={theme.palette.secondary.main}
           sx={{ padding: "30px 30px 0 30px" }}
@@ -30,17 +27,10 @@ const Row3 = () => {
           Includes extra misc expenditures and costs
         </Typography>
       </Paper>
-<<<<<<< HEAD
-      <Paper sx={{width:"33%", minWidth : "350px" , flexGrow:1}}>
-       <Bar  isDashboard = {true}/>
-        </Paper>
-      <Paper sx={{width:"33%", minWidth : "350px" , flexGrow:1}}>
-=======
       <Paper sx={{width:{xs :'100%' , sm :"33%"},minWidth: {xs :'auto', sm: "350px"}, flexGrow:1}}>
        <Bar  isDashboard = {true}/>
         </Paper>
       <Paper sx={{width:{xs :'100%' , sm :"33%"},minWidth: {xs :'auto', sm: "350px"}, flexGrow:1}}>
->>>>>>> 049d23a (second device)
         <Geo isDashboard = {true}/>
       </Paper>
     </Stack>

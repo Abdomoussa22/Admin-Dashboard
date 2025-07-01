@@ -37,11 +37,7 @@ const App = () => {
 
 
   return (
-<<<<<<< HEAD
     <ThemeProvider theme={theme}>
-=======
-    <ThemeProvider  theme={theme}>
->>>>>>> 049d23a (second device)
       <CssBaseline>
         <Router>
           <Navbar handleDrawerOpen={handleDrawerOpen} open={open} mode={setMode} />

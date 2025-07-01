@@ -7,22 +7,17 @@ import { DownloadOutlined } from "@mui/icons-material";
 import Header from '../../components/Header/Header'
 const Dashboard = () => {
   return (
-<<<<<<< HEAD
-    <Box className="container">
-=======
+
     <Box sx={{mt : {xs : 10 }}} className="container">
->>>>>>> 049d23a (second device)
+
       <Box sx={{display:'flex', justifyContent:'space-between' , alignItems : 'center'}}>
 
       <Header title={"Dashboard"} subTitle={"Welcome to your dashboard"} />
       <Box sx={{ textAlign: 'right' }}>
-<<<<<<< HEAD
-        <Button variant='contained' color='primary' sx={{ textTransform: 'capitalize', padding: '4px 8px' }} >
-          <DownloadOutlined />
-=======
+
         <Button variant='contained' color='primary' sx={{ fontSize:{xs :'11px' ,sm :'15px'} ,textTransform: 'capitalize', padding:{xs:'2px 4px', lg:'4px 8px' }}} >
           <DownloadOutlined sx={{ fontSize:{xs :'15px' , lg : '20px'}}} />
->>>>>>> 049d23a (second device)
+
           Download Reports
         </Button>
       </Box>
