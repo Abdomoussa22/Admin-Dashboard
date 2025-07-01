@@ -23,27 +23,29 @@ const Team = () => {
                     <Box
                         sx={{
                             background: access === 'Admin' ? theme.palette.primary.dark : access === 'Manager' ? theme.palette.secondary.main : " #3da58a",
-                            p: '5px',
-                            width: '99px',
+                            p:{xs : '3px' , sm :'5px'},
+                            width:{xs : '50px' , sm :'99px'},
                             margin: '7px auto',
                             textAlign: 'center',
                             display: 'flex',
                             justifyContent: 'space-evenly',
                             borderRadius: '3px'
+                 
                         }}>
-                        {access === "Admin" && < AdminPanelSettingsOutlined fontSize='small' sx={{ color: '#fff' }} />}
-                        {access === "Manager" && < SecurityOutlined fontSize='small' color='inherit' sx={{ color: '#fff' }} />}
-                        {access === "User" && < LockOpenOutlined fontSize='small' color='inherit' sx={{ color: '#fff' }} />}
-                        <Typography sx={{ fontSize: '13px', color: '#fff' }}>{access}</Typography>
+                        {access === "Admin" && < AdminPanelSettingsOutlined sx={{fontSize:{xs : '15px' , sm :'small'} , color: '#fff' }} />}
+                        {access === "Manager" && < SecurityOutlined  color='inherit' sx={{fontSize:{xs : '15px' , sm :'small'}, color: '#fff' }} />}
+                        {access === "User" && < LockOpenOutlined  color='inherit' sx={{fontSize:{xs : '15px' , sm :'small'}, color: '#fff' }} />}
+                        <Typography sx={{ fontSize:{xs : '15px' , sm :'small'} , color: '#fff' }}>{access}</Typography>
+
                     </Box>
                 )
             }
         },
     ];
     return (
-        <Box className="container">
+        <Box mt={{xs:10}} ml={{xs :11 , sm:15}} width={{xs:'307px' , sm:'90%'}} className="container">
             <Header title={"Time"} subTitle={"Managing the Team Members"}/>
-            <div style={{ height: '100vh', width: '100%' }}>
+            <div style={{ height: '100vh', width: '97%' }}>
                 <DataGrid rows={rows} 
 // @ts-ignore
                 columns={columns} />

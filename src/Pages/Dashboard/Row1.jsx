@@ -15,7 +15,7 @@ const Row1 = () => {
       gap={0.5}
       justifyContent={{ xs: "center", sm: "space-between" }}
       mt={"10px"}
-      marginLeft={{xs:"50px" , sm :'0px'}}
+      marginLeft={{ xs: "50px", sm: "0px" }}
     >
       <Card
         icon={

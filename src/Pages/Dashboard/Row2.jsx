@@ -71,6 +71,7 @@ const Row2 = () => {
         </Paper>
         {Transactions.map((item) => (
           <Paper
+          key={Math.random()}
             sx={{
               mt: 0.4,
               display: "flex",
